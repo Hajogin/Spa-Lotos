@@ -129,3 +129,30 @@ span {
     margin: 10px 0;
     color: #46261d;
 }
+.container-programs {
+    height: auto;
+    background: #46261d;
+    margin: 0;
+}
+.programs {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto 0;
+}
+.programs h1 {
+    margin: 0;
+    font-family: "Times New Roman";
+    font-size: 45px;
+    padding: 40px 0 20px;
+    color: #f5e9d3;
+}
+.slider {
+    position: relative;
+    width: 405px;
+    height: 270px;
+    margin-bottom: 30px;
+}
+
+.slide {
+    position: absolute;
+}
