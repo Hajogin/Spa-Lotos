@@ -90,3 +90,42 @@ body {
     color: #46261d;
     padding: 20px 30px;
 }
+.info-container {
+    background: #f5e9d3;
+    position: relative;
+}
+.info {
+    width: 960px;
+    height: auto;
+    margin: 0 auto 0;
+    padding: 10px 0 10px;
+}
+.info h2 {
+    margin: 0;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    color: #46261d;
+}
+.photo-1 {
+    width: 200px;
+    height: 161px;
+    margin: 0 20px;
+    float: left;
+}
+span {
+    font-family: Arial;
+    font-size: x-large;
+    color: #46261d;
+}
+.photo-2 {
+    width: 466px;
+    height: 312px;
+    margin: 0 20px;
+    float: left;
+}
+.text {
+    font-family: Arial;
+    font-size: 17px;
+    margin: 10px 0;
+    color: #46261d;
+}
