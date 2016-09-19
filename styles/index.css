@@ -136,7 +136,7 @@ span {
 }
 .programs {
     width: 960px;
-    min-height: 3500px;
+    height: 3200px;
     margin: 0 auto 0;
 }
 .programs h1 {
@@ -152,6 +152,7 @@ span {
     height: 350px;
     float: left;
     margin: 20px;
+    margin-left: 40px;
 }
 .programs-foto p {
     text-align: center;
@@ -159,4 +160,42 @@ span {
     margin: 10px;
     padding: 0;
     color: #f5e9d3;
+}
+.programs-foto-last {
+    width: 420px;
+    height: 350px;
+    margin: 20px auto 20px;
+}
+.programs-foto-last p {
+    text-align: center;
+    height: 36px;
+    margin: 10px;
+    padding: 0;
+    color: #f5e9d3;
+}
+.footer-container {
+    height: 198px;
+    background: #46261d;
+    position: relative;
+}
+.footer-text {
+    padding-top: 20px;
+    color: #f5e9d3;
+    font-size: 35px;
+    font-family: "Times New Roman";
+    text-align: center;
+    vertical-align: middle;
+}
+span {
+    color: #f5e9d3;
+    font-size: 11px;
+}
+.vk {
+    margin: 50px 150px 0;
+    float: left;
+}
+.text-1 {
+    color: #f5e9d3;
+    margin: 50px 150px 0;
+
 }
