@@ -136,23 +136,27 @@ span {
 }
 .programs {
     width: 960px;
-    height: 100%;
+    min-height: 3500px;
     margin: 0 auto 0;
 }
 .programs h1 {
-    margin: 0;
+    margin: 0 auto 0;
     font-family: "Times New Roman";
     font-size: 45px;
     padding: 40px 0 20px;
     color: #f5e9d3;
-}
-.slider {
-    position: relative;
-    width: 405px;
-    height: 270px;
-    margin-bottom: 30px;
-}
 
-.slide {
-    position: absolute;
+}
+.programs-foto {
+    width: 420px;
+    height: 350px;
+    float: left;
+    margin: 20px;
+}
+.programs-foto p {
+    text-align: center;
+    height: 36px;
+    margin: 10px;
+    padding: 0;
+    color: #f5e9d3;
 }
