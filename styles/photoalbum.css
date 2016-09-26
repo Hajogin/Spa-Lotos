@@ -1,0 +1,67 @@
+.inform-container {
+    width: 1200px;
+    height: 30px;
+    background: #f5e9d3;
+}
+.container {
+    width: 1200px;
+    height: auto;
+    background: #46261d;
+}
+.container-company {
+    width: 960px;
+    height: auto;
+    margin: 0 auto 0;
+}
+.menu-company {
+    width: 250px;
+    padding-right: 20px;
+    padding-top: 30px;
+    float: left;
+}
+.menu-company ul {
+    list-style: none;
+}
+.menu-company a {
+    color: #f5e9d3;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+}
+.menu-company a:hover {
+    text-decoration: underline;
+}
+.about {
+    width: 400px;
+    height: 680px;
+    padding-top: 30px;
+    color: #f5e9d3;
+    margin: 0 auto 0;
+}
+.about h1 {
+    font-size: 40px;
+    margin: 0;
+}
+.about p {
+    font-family: Arial;
+    font-size: 16px;
+}
+.navigation {
+    font-size: 13px;
+}
+.navigation span {
+    font-size: 9px;
+}
+.navigation a {
+    color: #f5e9d3;
+}
+.photo {
+
+}
+.albums {
+    width: 130px;
+    height: 99px;
+    border: 1px solid #f5e9d3;
+    margin-top: 20px;
+    padding: 1px;
+}
