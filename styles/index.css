@@ -112,7 +112,7 @@ body {
     margin: 0 20px;
     float: left;
 }
-span {
+.info span {
     font-family: Arial;
     font-size: x-large;
     color: #46261d;
