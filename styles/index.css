@@ -173,29 +173,54 @@ span {
     padding: 0;
     color: #f5e9d3;
 }
-.footer-container {
+.footer-foreground {
     height: 198px;
     background: #46261d;
     position: relative;
 }
-.footer-text {
-    padding-top: 20px;
+.footer-container {
+    max-width: 960px;
+    margin: 0 auto 0;
+}
+.footer-email {
+    width: 250px;
+    height: 80px;
     color: #f5e9d3;
-    font-size: 35px;
+    font-family: "Arial Narrow";
+    font-size: 30px;
+    float: left;
+    margin-top: 40px;
+}
+.footer-text {
+    width: 400px;
+    height: 90px;
+    color: #f5e9d3;
     font-family: "Times New Roman";
+    font-size: 35px;
+    line-height: 30px;
+    float: left;
+    margin: 40px 50px;
     text-align: center;
-    vertical-align: middle;
 }
 span {
     color: #f5e9d3;
-    font-size: 11px;
+    font-size: 14px;
+}
+.footer-adress {
+    height: 80px;
+    text-align: right;
+    color: #f5e9d3;
+    font-family: Arial;
+    padding-top: 40px;
 }
 .vk {
-    margin: 50px 150px 0;
+    clear: both;
     float: left;
+    width: 100px;
+    margin-top: -2px;
 }
 .text-1 {
     color: #f5e9d3;
-    margin: 50px 150px 0;
-
+    width: 492px;
+    margin: 0 auto 0;
 }
