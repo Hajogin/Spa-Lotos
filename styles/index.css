@@ -154,6 +154,9 @@ body {
     margin: 20px;
     margin-left: 40px;
 }
+.programs-foto a {
+    text-decoration: none;
+}
 .programs-foto p {
     text-align: center;
     height: 36px;
