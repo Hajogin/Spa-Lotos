@@ -5,7 +5,7 @@
     <title>Spa салон "Храм Лотоса" г.Екатеринбург</title>
     <link rel="shortcut icon" href="images/logo/favicon.png" type="image/png">
     <link href="styles/index.css" rel="stylesheet">
-    <link href="styles/company.css" rel="stylesheet">
+    <link href="styles/contakts.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -127,22 +127,35 @@
                 </ul>
             </div>
             <div class="about">
-                <h1>О компании</h1>
+                <h1>Контакты</h1>
                 <div class="navigation">
                     <a href="index.html">Главная</a>
-                    <span> >> </span> О компании
+                    <span> >> </span> Контакты
                 </div>
-                <p>
-                    Храм Лотоса — это новая уникальная территория спа-комфорта, созданная для вашего удовольствия.
-                    <br><br>
-                    Место, где можно почувствовать, как ваши мечты становятся реальностью, где вся атмосфера пропитана нотами изысканных ароматов и ощущений.
-                    <br><br>
-                    В основе всех наших программ лежат вековые легендарные традиции спа и массажей, а также эксклюзивные сорта натурального шоколада и полностью натуральные ингридиенты.
-                    <br><br>
-                    В салонах работают только высоко квалифицированные мастера.
-                    <br><br>
-                    Мы разработали для Вас единственную в своем роде систему, в которой учтены мельчайшие детали для полноценного отдыха и расслабления.
-                </p>
+                <div class="map">
+                    <script charset="utf-8" src="http://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+                    <script charset="utf-8">new DGWidgetLoader({"width":640,"height":400,"borderColor":"#a3a3a3","pos":{"lat":56.839325322409344,"lon":60.62124967575074,"zoom":16},"opt":{"city":"ekaterinburg"},"org":[{"id":"1267166676600976"}]});</script>
+                    <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+                </div>
+                <div class="feedback">
+                    <span>Запись на программу</span>
+                    <ul>
+                        <li>
+                            <input type="text" name="name" placeholder="Ваше имя">
+                            <br>
+                            <input type="text" name="email" placeholder="E-mail">
+                            <br>
+                            <input type="text" name="phone" placeholder="Телефон">
+                            <br>
+
+                            <textarea name="message" placeholder="Сообщение" rows="5"></textarea>
+                        </li>
+                        <li>
+                            <input type="submit" id="send" class="submit-color" value="Отправить">
+
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
