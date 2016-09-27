@@ -5,7 +5,7 @@
 }
 .container {
     width: 1200px;
-    height: auto;
+    height: 100%;
     background: #46261d;
 }
 .container-company {
